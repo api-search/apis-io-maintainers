@@ -1,34 +1,28 @@
 left:
 
   - title: Home
-    url: https://apis-io-api.apievangelist.com/
+    url: /
 
   - title: About
-    url: https://apis-io-api.apievangelist.com/about
+    url: /about  
 
-  - title: Getting Started
-    url: https://apis-io-api.apievangelist.com/getting-started     
+  - title: Auth
+    url: /authentication   
 
-  - title: Authentication
-    url: https://apis-io-api.apievangelist.com/authentication   
-
-  - title: Documentation
-    url: https://apis-io-api.apievangelist.com/documentation
+  - title: Docs
+    url: /documentation
 
   - title: Plans
-    url: https://apis-io-api.apievangelist.com/plans
-
-  - title: SDKs
-    url: https://apis-io-api.apievangelist.com/sdks 
+    url: /plans
 
   - title: Blog
-    url: https://apis-io-api.apievangelist.com/blog
+    url: /blog
 
   - title: Videos
-    url: https://apis-io-api.apievangelist.com/videos
+    url: /videos
 
   - title: Support
-    url: https://apis-io-api.apievangelist.com/support
+    url: /support
 
 right:
 
