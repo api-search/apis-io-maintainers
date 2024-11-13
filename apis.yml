@@ -1,4 +1,4 @@
-aid: apis-io
+aid: apis-io-maintainers
 specificationVersion: '0.18'
 name: APIs.io Maintainer API
 description: >-
@@ -14,7 +14,7 @@ tags:
 
 apis:
 
-  - aid: apis-io:maintainer-api
+  - aid: apis-io-maintainers:maintainer-api
     name: APIs.io Maintainer API
     description: >-
       This is the API for powering APIs.io.
