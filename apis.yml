@@ -2,36 +2,28 @@ aid: apis-io-maintainers
 specificationVersion: '0.18'
 name: APIs.io Maintainer API
 description: >-
-  This is the contract for the APIs.io Maintainer API used to govern the APIs.io search maintainer.
+  This is the contract for the APIs.io Maintainer API used to govern the APIs.io
+  search maintainer.
 created: '2024-08-20'
-modified: '2024-11-13'  
+modified: '2024-11-13'
 url: https://github.com/api-search/maintainer-api/blob/main/apis.yml
 type: Contract
 position: Producer
 access: 1st-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
 tags:
-
   - Maintainer
-
 apis:
-
   - aid: apis-io-maintainers:maintainer-api
-    name: APIs.io Maintainer API
-    description: >-
-      This is the API for powering APIs.io.
+    name: APIs.io Maintainers API
     tags:
-
       - Maintainer
-
     image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jpg
-    humanURL: https://developer.apis.io/documentation
     baseURL: https://maintainer-api.apis.io
-
     contact:
       - FN: APIs.io
         email: info@apis.io
-    
+    humanURL: https://developer.apis.io/documentation
     properties:
       - url: https://github.com/api-search/maintainer-api
         type: GitHubRepository
@@ -42,12 +34,14 @@ apis:
         type: Documentation
       - url: properties/openapi.yml
         type: OpenAPI
-
+    description: >-
+      This is the API for managing all the maintainers who are indexed as part
+      of the APIs.io search engine.
 common:
-
   - url: https://github.com/api-search/
     type: GitHubOrganization
-  - url: https://www.postman.com/api-evangelist/apis-io-api-search-maintainer/overview
+  - url: >-
+      https://www.postman.com/api-evangelist/apis-io-api-search-maintainer/overview
     type: PostmanPublicWorkspace
   - url: https://developer.apis.io
     type: Portals
@@ -107,9 +101,9 @@ common:
   - url: >-
       https://api-evangelist-tools.github.io/apis-io-maintainer-api-operational-validator/
     type: OperationalValidation
-  - url: https://api-evangelist-tools.github.io/apis-io-maintainer-api-api-validator/
+  - url: >-
+      https://api-evangelist-tools.github.io/apis-io-maintainer-api-api-validator/
     type: APIValidation
-
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
